@@ -18,8 +18,8 @@ public class update_text : MonoBehaviour
          
             self_txtComp = this.GetComponent<Text>();
             partner_txtComp = partner_gameOjb.GetComponent<Text>();
-            StartCoroutine(GetRequest_1(("https://www.rakshithsingh.com/chatbot/" + text_2),partner_txtComp));
-            StartCoroutine(GetRequest_2(("https://www.rakshithsingh.com/chatbot/" + text_1), self_txtComp));
+            StartCoroutine(GetRequest_1(("https://www.rakshithsingh.com/response/" + text_2),partner_txtComp));
+            StartCoroutine(GetRequest_2(("https://www.rakshithsingh.com/response/" + text_1), self_txtComp));
         
     }
     IEnumerator GetRequest_1(string uri,Text txt1)
@@ -44,7 +44,7 @@ public class update_text : MonoBehaviour
             {
                 text_2.Replace(" ", "%20");
             }
-            uri = "https://www.rakshithsingh.com/chatbot/" + text_2;
+            uri = "https://www.rakshithsingh.com/response/" + text_2;
         }
 
     }
@@ -71,7 +71,7 @@ public class update_text : MonoBehaviour
             {
                 text_1.Replace(" ", "%20");
             }
-            uri = "https://www.rakshithsingh.com/chatbot/" + text_1;
+            uri = "https://www.rakshithsingh.com/response/" + text_1;
         }
     }
     /*
