@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{3D3A2C39-AD86-E4B9-A2FB-D1F381C2741D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/update_text.cs">
+    <Files>
+      <File FileName="Assets/update_text.cs" Line="16" Column="83" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="30d511dc-d616-478e-bff1-9be276929b50" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
